@@ -10,3 +10,14 @@ class Node {
         next = NULL;
     }
 };
+
+class Stack {
+    private:
+    Node *top;
+
+    public:
+    Stack() {
+        top = NULL;
+    }
+
+};
