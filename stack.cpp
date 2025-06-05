@@ -32,4 +32,9 @@ class Stack {
     bool isEmpty() {
         return top == NULL;
     }
+
+    void pop();
+
+     
 };
+
