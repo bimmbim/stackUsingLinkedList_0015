@@ -38,7 +38,8 @@ class Stack {
             cout << "Stack is empty." << endl;
             return;
         }
-            
+            cout << "Popped value: " << top->data << endl;
+            top = top->next;
     }
 
      
